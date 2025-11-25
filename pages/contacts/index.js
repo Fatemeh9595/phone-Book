@@ -8,7 +8,6 @@ import { useRouter } from "next/router"
 import validatToken from "@/utils/auth"
 import generateFilter from "@/utils/generateFilter"
 import { MdOutlineFavoriteBorder } from "react-icons/md"
-import styles from '@/styles/Dashboard.module.css';
 
 
 export default function Contacts({ contactsList, userId }) {
