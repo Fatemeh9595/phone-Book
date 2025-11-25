@@ -1,0 +1,71 @@
+.container {
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container form {
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+   color: rgb(57, 57, 57);
+   font-size: 14px;
+}
+.container form > input {
+   all: unset;
+   border: 1px solid gray;
+   border-radius: 5px;
+   padding: 10px;
+}
+.container .password input{
+   all: unset;
+}
+.container .password{
+   border: 1px solid gray;
+   border-radius: 5px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.container .password svg{
+   cursor: pointer;
+}
+.container select {
+   all: unset;
+   border: 1px solid gray;
+   border-radius: 5px;
+   padding: 10px;
+}
+.container button {
+   all: unset;
+   border-radius: 5px;
+   padding: 10px;
+   text-align: center;
+   background-color: rgb(3, 157, 3);
+   font-weight: 600;
+   color: white;
+}
+.notRegistered{
+   text-align: center;
+   color: gray;
+}
+.notRegistered a{
+   text-decoration: none;
+   color: rgb(3, 157, 3);
+
+}
+
+.spin{
+   animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+   0%{
+      transform: rotate(0deg);
+   }
+   100%{
+      transform: rotate(360deg);
+   }
+}
