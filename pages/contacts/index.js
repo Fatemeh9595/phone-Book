@@ -1,4 +1,4 @@
-import ContactItem from "@/components/contact/Contactitem"
+import ContactItem from "../../components/contact/contactitem"
 import Contact from "@/models/Contact"
 import connectDB from "@/utils/connectDB"
 import styles from "@/styles/Contacts.module.css"
