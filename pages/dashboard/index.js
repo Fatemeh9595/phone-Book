@@ -1,6 +1,6 @@
 import User from "@/models/User"
 import connectDB from "@/utils/connectDB"
-import styles from "@/styles/Dashboard.module.css"
+import styles from "@/styles/DashBoard.module.css"
 import validatToken from "@/utils/auth"
 
 export default function Dashboard({ user }) {
