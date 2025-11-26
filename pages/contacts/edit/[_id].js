@@ -112,6 +112,7 @@ export default function EditContact({ contact }) {
 }
 
 export async function getServerSideProps({ params }) {
+   connectDB()
    const { _id } = params
    const contact = await Contact.findById(_id).select("-_id").lean()
    return {
