@@ -3,7 +3,8 @@ import { MdDeleteForever } from "react-icons/md"
 import { AiFillEdit } from "react-icons/ai"
 import { MdOutlineFavoriteBorder } from "react-icons/md"
 import Link from "next/link"
-import styles from './ContactItem.module.css'; 
+import styles from "./contactitem.module.css";
+
 
 export default function ContactItem(props) {
    const { _id, firstName, lastName , favorite , age , gender, phone, contacts, setContacts } = props
